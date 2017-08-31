@@ -4,7 +4,7 @@
   <jsp:useBean id="person" scope="request" class="com.za.tutorial.mvc.PersonBeanModel"/>
 <html>
 <head>
-<meta tt-equiv="Content-Type" content="text/html"; charset=ISO-8859-1">
+<meta htt-equiv="Content-Type" content="text/html"; charset=ISO-8859-1">
 <title>MVC Hands-on Tutorial 01</title>
 </head>
 <body>
