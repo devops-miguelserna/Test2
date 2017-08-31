@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>com.za.tutorial.mvc.ServletController</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ServletCalculadora</servlet-name>
+  	<display-name>ServletCalculadora</display-name>
+  	<description></description>
+  	<servlet-class>com.za.tutorial.mvc.ServletCalculadora</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>ServletController</servlet-name>
   	<url-pattern>/ServletController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletCalculadora</servlet-name>
+  	<url-pattern>/ServletCalculadora</url-pattern>
   </servlet-mapping>
 </web-app>
