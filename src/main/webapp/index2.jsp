@@ -12,6 +12,8 @@
 	<br>
 	Numero b: <jsp:getProperty property="b" name="calcu"/>
 	<br>
-	
+	Suma: <jsp:getProperty property="suma" name="calcu"/>
+	<br>
+	Resta: <jsp:getProperty property="resta" name="calcu"/>
 </body>
 </html>
