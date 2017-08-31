@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet("/ServletControllerCalc")
+@WebServlet("/ServletCalculadora")
 public class ServletCalculadora extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     public ServletCalculadora() {
