@@ -3,15 +3,18 @@ package com.za.tutorial.mvc;
 public class Calculadora {
 	public int a;
 	public int b;
-	
+	public int ssuma;
 	public int rresta;
 	
-	public static int suma(int a, int b){
-		return a + b;
+	public  int resta(){
+		rresta = getA() - getB();
+		return rresta;
 	}
 	
-	public static int resta(int a, int b){
-		return a - b;
+	public  int suma(){
+		
+		ssuma= getA() + getB();
+		return ssuma;
 	}
 
 	public int getA() {
