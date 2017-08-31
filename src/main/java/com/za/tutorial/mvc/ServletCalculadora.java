@@ -19,7 +19,7 @@ public class ServletCalculadora extends HttpServlet {
 		calcu.setA(Integer.parseInt(request.getParameter("a")));
 		calcu.setB(Integer.parseInt(request.getParameter("b")));
 		calcu.doSomething();
-		request.setAttribute("person", calcu);
+		request.setAttribute("calcu", calcu);
 		getServletContext().getRequestDispatcher("/index2.jsp").forward(request, response);
 		
 	}
