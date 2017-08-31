@@ -3,6 +3,7 @@ package com.za.tutorial.mvc;
 public class PersonBeanModel {
 	private String name = null;
 	private String mail = null;
+	private String tel = null;
 	public String getName() {
 		return name;
 	}
