@@ -18,6 +18,8 @@ public class ServletCalculadora extends HttpServlet {
 		Calculadora calcu = new Calculadora();
 		calcu.setA(Integer.parseInt(request.getParameter("a")));
 		calcu.setB(Integer.parseInt(request.getParameter("b")));
+		calcu.suma();
+		calcu.resta();
 		calcu.doSomething();
 		request.setAttribute("calcu", calcu);
 		getServletContext().getRequestDispatcher("/index2.jsp").forward(request, response);
