@@ -1,4 +1,4 @@
-package com.za.tutorial.mvc;
+package com.za.tutorial.calculadora;
 
 public class Calculadora {
 	public int a;
@@ -6,12 +6,12 @@ public class Calculadora {
 	public int ssuma;
 	public int rresta;
 	
-	public  int resta(){
+	public  int getResta(){
 		rresta = getA() - getB();
 		return rresta;
 	}
 	
-	public  int suma(){
+	public  int getSuma(){
 		
 		ssuma= getA() + getB();
 		return ssuma;

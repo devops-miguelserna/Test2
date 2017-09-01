@@ -14,7 +14,7 @@
   	<servlet-name>ServletCalculadora</servlet-name>
   	<display-name>ServletCalculadora</display-name>
   	<description></description>
-  	<servlet-class>com.za.tutorial.mvc.ServletCalculadora</servlet-class>
+  	<servlet-class>com.za.tutorial.calculadora.ServletCalculadora</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>ServletController</servlet-name>

@@ -1,4 +1,5 @@
-package com.za.tutorial.mvc;
+package com.za.tutorial.calculadora;
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -6,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet("/ServletCalculadora")
+//@WebServlet("/ServletCalculadora")
 public class ServletCalculadora extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     public ServletCalculadora() {
@@ -18,16 +19,11 @@ public class ServletCalculadora extends HttpServlet {
 		Calculadora calcu = new Calculadora();
 		calcu.setA(Integer.parseInt(request.getParameter("a")));
 		calcu.setB(Integer.parseInt(request.getParameter("b")));
-		calcu.suma();
-		calcu.resta();
 		calcu.doSomething();
 		request.setAttribute("calcu", calcu);
 		getServletContext().getRequestDispatcher("/index2.jsp").forward(request, response);
 		
 	}
-	/*protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
-	}*/
+	
 
 }
