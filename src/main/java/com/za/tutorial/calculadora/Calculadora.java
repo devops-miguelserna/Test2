@@ -38,6 +38,12 @@ public class Calculadora {
 	}
 
 	
-		
+	public static int suma2(int x, int y){
+		return x + y;
+	}
+	
+	public static int resta2(int x, int y){
+		return x - y;
+	}
 
 }
