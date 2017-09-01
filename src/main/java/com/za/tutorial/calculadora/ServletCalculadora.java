@@ -18,7 +18,7 @@ public class ServletCalculadora extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { 
 		Calculadora calcu = new Calculadora(); 
 		calcu.setA(Integer.parseInt(request.getParameter("a"))); 
-		calcu.setB(Integer.parseInt(request.getParameter("b"))); 
+		calcu.setB(Integer.parseInt(request.getParameter("b"))); //
 		calcu.doSomething(); 
 		request.setAttribute("calcu", calcu); 
 		getServletContext().getRequestDispatcher("/index2.jsp").forward(request, response); 
