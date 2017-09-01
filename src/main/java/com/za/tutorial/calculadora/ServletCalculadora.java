@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 
-public class ServletCalculadora extends HttpServlet { 
+public class ServletCalculadora extends HttpServlet {  
 	private static final long serialVersionUID = 1L; 
     public ServletCalculadora() { 
         super(); 
