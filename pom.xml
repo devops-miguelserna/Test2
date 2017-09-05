@@ -42,7 +42,13 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <phase>com.za.tutorial</phase>
+                        <phase>com.za.tutorial.calculadora</phase>
+                        <goals>
+                            <goal>cobertura</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <phase>com.za.tutorial.mvc</phase>
                         <goals>
                             <goal>cobertura</goal>
                         </goals>
