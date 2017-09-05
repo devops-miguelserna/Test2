@@ -6,7 +6,7 @@ public class Calculadora {
 	public int ssuma;
 	public int rresta;
 	
-	public  int getResta(){
+	public  int GetResta(){
 		rresta = getA() - getB();
 		return rresta;
 	}
