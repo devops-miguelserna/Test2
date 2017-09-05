@@ -47,12 +47,6 @@
                             <goal>cobertura</goal>
                         </goals>
                     </execution>
-                    <execution>
-                        <phase>com.za.tutorial.mvc</phase>
-                        <goals>
-                            <goal>cobertura</goal>
-                        </goals>
-                    </execution>
                 </executions>
 		 </plugin>
 		</plugins>
