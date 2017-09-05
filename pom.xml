@@ -42,7 +42,7 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <phase>com.za.tutorial.calculadora</phase>
+                        <phase>com.za.tutorial</phase>
                         <goals>
                             <goal>cobertura</goal>
                         </goals>
