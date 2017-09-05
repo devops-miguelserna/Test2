@@ -9,7 +9,7 @@ public class CalculadoraTest {
 	@Test
 	public void testSuma(){
 		int resultado = Calculadora.suma2(2, 3);
-		int esperado = 4; //5 2
+		int esperado = 5; 
 		assertEquals(esperado, resultado);
 	}
 	
